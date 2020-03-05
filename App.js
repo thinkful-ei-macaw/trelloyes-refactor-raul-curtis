@@ -66,10 +66,7 @@ class App extends Component {
       }
       return list;
     })
-  console.log('addRandomCard', {
-          ...this.state.store.allCards,
-          [myCard.id]: myCard
-        });
+  console.log(myCard);
    this.setState({
       store: {
         lists: newLists,
